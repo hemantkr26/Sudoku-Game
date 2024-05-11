@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+h3 {
+    font-size: smaller;
+    color: crimson;
+}
+
+#errors {
+    color: black;
+}
+
+#board {
+    width: 449px;
+    height: 450px;
+
+    background-color: rgb(209, 187, 215);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 48px;
+    height: 48px;
+    /* 1px thick for up and down so it makes a 50px total*/
+    border: 1px solid rgb(23, 3, 81);
+
+    /*For the numbers*/
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    /* for placing at center*/
+    align-items: center;
+}
+
+#digits {
+    width: 450px;
+    height: 50px;
+
+    background-color: rgb(28, 241, 223);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 44.5px;
+    height: 44.677px;
+    /* 1px thick for up and down so it makes a 50px total*/
+    border: 1px solid black;
+    margin: 2px;
+
+    /*For the numbers*/
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    /* for placing at center*/
+    align-items: center;
+}
+
+.number-selected {
+    background-color: rgb(185, 185, 174);
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+/*for making a 3x3 table*/
+.horizontal-line {
+    border-bottom: 3px solid black ;
+}
+
+.vertical-line {
+    border-right: 2px solid black ;
+}
